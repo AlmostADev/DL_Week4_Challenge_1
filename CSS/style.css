@@ -1,0 +1,21 @@
+.contain-back {
+    background: url('../images/bg.jpeg');
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+.jumbotron {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+}
