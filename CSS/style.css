@@ -1,5 +1,6 @@
 p {
     margin-top: 15px;
+    font-size: 12px;
 }
 
 .logo {
@@ -20,7 +21,8 @@ p {
 }
 
 .people {
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .info {
@@ -31,11 +33,23 @@ p {
 }
 
 .bottom-info {
-    padding: 20px;
+    padding: 50px;
+}
+
+.bottom-info p {
+    margin: 0;
 }
 
 .footer {
     background-color: #000;
     color: white;
     margin-top: 15px;
+    padding-left: 100px;
 }
+
+.carousel-item {
+    display: none;
+    position: relative;
+    transition: 0.2s ease-in-out left;
+}
+
